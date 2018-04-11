@@ -89,8 +89,14 @@ public class Hello {
 小练习
 ------
 让我们来练习一下我们刚学习的知识吧。
-<lab lang="blocks" parameters="logic=false&loops=false&lists=false&color=false&variables=false&functions=false&text=false&name=chapter1lab3">
-  <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
+<lab lang="java" parameters="filename=Hello.java">
+<notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
+public class Hello {
+  public static void main(String[] args) {
+      // 在这里输入代码
+      System.out.println(""");
+  }
+}
 </lab>
 
 试试做出如下的效果：
