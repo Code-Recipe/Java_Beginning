@@ -1,0 +1,60 @@
+{
+  "name": "面向对象编程",
+  "desc": "这个教程主要配合Java介绍面向对象编程的理论知识概念，不管以后要学习哪一个面向对象语言，学习这个教程都是很有用的。",
+  "keywords": ["编程", "基础"],
+  "cover": "cover.png",
+  "tags": ["编程", "基础", "入门"],
+  "chapters": [
+    {
+      "name": "初入编程",
+      "content": "Chapter1/Chapter1.md",
+      "sections": [
+        {"name":"输入输出"},
+        {"name":"转义"},
+        {"name":"小练习"}
+      ]
+    },
+    {
+      "name": "变量和类型",
+      "content": "Chapter2/Chapter2.md",
+      "sections": [
+        {"name":"赋值和读取"},
+        {"name":"给变量起名字"},
+        {"name":"类型及储存方式"},
+        {"name":"运算和操作符"},
+        {"name":"标识符"},
+        {"name":"小练习"}
+      ]
+    },
+    {
+      "name": "if语句——选择判断",
+      "content": "Chapter3/Chapter3.md",
+      "sections": [
+        {"name":"如果…否则如果…否则…"},
+        {"name":"且、或和非"},
+        {"name":"最小化求值原理"},
+        {"name":"小练习"}
+      ]
+    },
+    {
+      "name": "循环",
+      "content": "Chapter4/Chapter4.md",
+      "sections": [
+        {"name":"for循环"},
+        {"name":"while循环"},
+        {"name":"for each循环"},
+        {"name":"continue下一循环和break停止循环"},
+        {"name":"小练习"}
+      ]
+    },
+    {
+      "name": "数学计算",
+      "content": "Chapter6/Chapter7.md",
+      "sections": [
+        {"name":"数学函数和常量的使用"},
+        {"name":"随机数的产生"},
+        {"name":"小练习"}
+      ]
+    }
+  ]
+}
