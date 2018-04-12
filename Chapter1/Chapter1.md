@@ -94,7 +94,6 @@ public class Hello {
 public class Hello {
   public static void main(String[] args) {
       // 在这里输入代码
-      System.out.println(""");
   }
 }
 </lab>
