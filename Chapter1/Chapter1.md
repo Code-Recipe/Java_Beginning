@@ -64,7 +64,7 @@ public class Hello {
 }
 </lab>
 
-运行之后我们会发现错误是`Hello.java:5: error: unclosed string literal`，这其实想告诉我们的是，Java认为我们前面的一对`""`是一对双引号，双引号间的内容就是我们要输出的文字，而后面的`"`落单了，Java找不到匹配的双引号。因此我们要让Java知道我们的第二个双引号是要用来原样输出而不是当做字符串结束的。在Java里面，我们可以在"前面加一个`\`来告诉Java，方式如下：
+运行之后我们会发现错误是`Hello.java:4: error: unclosed string literal`，这其实想告诉我们的是，Java认为我们前面的一对`""`是一对双引号，双引号间的内容就是我们要输出的文字，而后面的`"`落单了，Java找不到匹配的双引号。因此我们要让Java知道我们的第二个双引号是要用来原样输出而不是当做字符串结束的。在Java里面，我们可以在"前面加一个`\`来告诉Java，方式如下：
 
 <lab lang="java" parameters="filename=Hello.java">
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
