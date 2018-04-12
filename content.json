@@ -23,6 +23,7 @@
         {"name":"类型及储存方式"},
         {"name":"运算和操作符"},
         {"name":"标识符"},
+        {"name":"final变量"},
         {"name":"小练习"}
       ]
     },
@@ -33,6 +34,7 @@
         {"name":"如果…否则如果…否则…"},
         {"name":"且、或和非"},
         {"name":"最小化求值原理"},
+        {"name":"德摩根定律"},
         {"name":"小练习"}
       ]
     },
@@ -49,10 +51,19 @@
     },
     {
       "name": "数学计算",
-      "content": "Chapter6/Chapter7.md",
+      "content": "Chapter5/Chapter5.md",
       "sections": [
         {"name":"数学函数和常量的使用"},
         {"name":"随机数的产生"},
+        {"name":"小练习"}
+      ]
+    },
+    {
+      "name": "异常",
+      "content": "Chapter6/Chapter6.md",
+      "sections": [
+        {"name":"发生异常的情况"},
+        {"name":"异常的抛出和处理"},
         {"name":"小练习"}
       ]
     }
