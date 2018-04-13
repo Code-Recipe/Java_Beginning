@@ -307,6 +307,62 @@ public class Hello {
 
 方法的标识符的概念和变量又有一些区别，我们之后会提到。
 
+final变量
+------
+有的时候，我们需要设定一个值，而这个值会被很多地方引用（比如学生数量），如果直接用数字写在代码里，一旦这个数字需要修改，工程师们就需要查遍所有有可能出现这个数字的地方去改它。而且麻烦在于不能直接用查找和替换，毕竟同一个数字可能有不同的用途（比如我们想改的是学生数量的50，却把一节课的时间50也一起改了）。
+
+有一种替代方法是在开头声明一个变量（如前面说的studentNum），之后在需要用到这个数字的时候都引用这个变量而不是直接写数字，比如我们需要两倍于学生数量的笔：
+<lab lang="java" parameters="filename=Hello.java">
+<notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
+public class Hello {
+  public static void main(String[] args) {
+      int studentNum = 50;
+      System.out.print("Number of pens: ");
+      System.out.println(studentNum * 2);
+      // 而不是 System.out.println(50 * 2);
+  }
+}
+</lab>
+
+但这样有一个问题，Java不知道我们是不是要修改这个变量，因此很难做优化，并且要是我们操作出错修改了这个变量，那整个程序都会出现严重的问题：
+<lab lang="java" parameters="filename=Hello.java">
+<notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
+public class Hello {
+  public static void main(String[] args) {
+      int studentNum = 50;
+      studentNum = 30; // 一个错误的操作
+      System.out.print("Number of pens: ");
+      System.out.println(studentNum * 2);
+      // 100 才应该是正确的结果
+  }
+}
+</lab>
+
+因此Java给我们提供了`final`这个关键字（注意关键字是不能当变量名的），用来定义`final`变量（final variable， 也叫用户定义常量，即user-defined constant）。
+
+<lab lang="java" parameters="filename=Hello.java">
+<notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
+public class Hello {
+  public static void main(String[] args) {
+      final int STUDENT_NUM = 50;
+      // STUDENT_NUM = 30;
+      System.out.print("Number of pens: ");
+      System.out.println(STUDENT_NUM * 2);
+      // 100是正确的结果
+  }
+}
+</lab>
+
+与变量的命名惯例不同，常量一般都需要大写，并且词和词之间多用`_`连接。
+
+去除注释以后，我们会发现出现了以下错误：
+```
+Hello.java:5: error: cannot assign a value to final variable STUDENT_NUM
+```
+这就防止了我们无意中对final变量进行修改。
+
+**注意**：`final`变量并不一定要在定义的时候赋值，你也可以把上面的`final int STUDENT_NUM = 50;`拆成`final int STUDENT_NUM;`和 `STUDENT_NUM = 50;`，甚至可以把赋值语句放在条件语句里（下一章会学到）有条件地执行，但一定要注意不能第二次赋值，也不能不赋值就读取。
+
 小练习
 ------
 让我们来练习一下我们刚学习的知识吧。
