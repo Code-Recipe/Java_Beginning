@@ -141,3 +141,40 @@ public class Hello {
 
 小练习
 -----
+1. What will be output by the following statement?
+```java
+int age = 1;
+if(age > 10){
+	System.out.println(age);
+}
+```
+(A)1
+
+(B)10
+
+(C)no output
+
+(D)unknown
+
+下面的内容要按一下才会显示：
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>C</cr>
+
+2. What will be output by the following statement?
+```java
+int i = 7;
+if(i>0)
+  if(i%2 == 0)
+    System.out.println(i);
+  else
+    System.out.println(i+" is not positive");
+    ```
+(A)7
+
+(B)1
+
+(C)no output
+
+(D)7 is not positive
+
+下面的内容要按一下才会显示：
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>D</cr>

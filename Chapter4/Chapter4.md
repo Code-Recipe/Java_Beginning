@@ -108,3 +108,54 @@ public class Hello {
 
 小练习
 -----
+1. Refer to the following code segment.
+```java
+/** Compute the mean of integers 1 .. N.
+* N is an integer >= 1 and has been initialized. */
+int k = 1;
+double mean, sum = 1.0;
+while (k < N){
+  /* loop body */
+}
+mean = sum / N;
+```
+What is the precondition for the while loop?
+
+(A) k ≥ N, sum=1.0
+
+(B) sum=1+2+3+... +k
+
+(C) k<N, sum=1.0
+
+(D) N ≥ 1, k=1, sum=1.0
+
+(E) mean=sum/N
+
+下面的内容要按一下才会显示：
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>D</cr>
+
+2. Refer to the following method.
+```java
+/**Precondition: aandbareinitializedintegers. */
+public static int mystery(int a, int b){
+  int total = 0, count = 1; while (count <= b){
+    total += a;
+    count++;
+  }
+  return total;
+}
+```
+What is the postcondition for method mystery?
+
+(A) total = a+b
+
+(B) total = a^b
+
+(C) total = b^a
+
+(D) total = a*b
+
+(E) total = a/b
+
+下面的内容要按一下才会显示：
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>D</cr>
