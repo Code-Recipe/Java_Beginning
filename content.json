@@ -6,7 +6,7 @@
   "tags": ["编程", "基础", "入门"],
   "chapters": [
     {
-      "name": "初入编程",
+      "name": "初入Java编程",
       "content": "Chapter1/Chapter1.md",
       "sections": [
         {"name":"输入输出"},
