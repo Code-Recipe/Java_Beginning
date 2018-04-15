@@ -93,14 +93,13 @@ math.random() + 1; //大于1小于2的随机数
 小练习
 -----
 1. 请定义一个函数使其有1个返回值，并调用这个函数。
-
 2. 请生成一个范围为6-21的double型随机值。
 
 <lab lang="java" parameters="filename=Hello.java">
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
 public class Hello {
   public static void main(String[] args) {
-    ... //请在此输入你的代码
+    //请在此输入你的代码
   }
 }
 </lab>
