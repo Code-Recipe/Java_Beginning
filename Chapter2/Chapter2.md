@@ -35,6 +35,8 @@ String text = "Hello Java!";
 String abc = text;
 ```
 
+如果我们定义了变量而没有对其进行赋值（也叫初始化，initialization），那么会发生几种情况，这要看变量定义的位置和类型分类而定，具体我们会在面向对象型编程教程里面讲到。
+
 像在第一章的例子，我们就可以先把字符串存入一个变量，再通过读取这个变量的方式把字符串输出出来，就像下面这样：
 
 <lab lang="java" parameters="filename=Hello.java">
