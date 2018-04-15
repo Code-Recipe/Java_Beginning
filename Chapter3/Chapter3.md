@@ -139,6 +139,29 @@ public class Hello {
 }
 </lab>
 
+德摩根定律
+-----
+在计算机里，德摩根定律表示的是两种等价关系：
+* `!a && !b <=> !(a || b)`
+* `!a || !b <=> !(a && b)`
+其中，`<=>`意味着等价，`a`和`b`都是布尔值。
+
+例如，当`a`和`b`都是`true`时，我们看定律中的第一条：
+
+`!a && !b = !true && !true = false && false = false`
+
+`!(a || b) = !(true || true) = !true = false`
+
+两者的值是一样的。
+
+当`a`和`b`都是`true`时，我们看定律中的第二条：
+
+`!a || !b = !true || !true = false || false = false`
+
+`!(a && b) = !(true && true) = !true = false`
+
+两者的值是也一样的。
+
 小练习
 -----
 1. What will be output by the following statement?
