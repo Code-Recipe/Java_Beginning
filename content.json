@@ -64,7 +64,7 @@
       "content": "Chapter6/Chapter6.md",
       "sections": [
         {"name":"发生异常的情况"},
-        {"name":"异常的抛出和处理"},
+        {"name":"需要掌握的异常"},
         {"name":"小练习"}
       ]
     }
