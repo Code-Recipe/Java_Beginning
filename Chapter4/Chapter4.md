@@ -132,7 +132,7 @@ What is the precondition for the while loop?
 (E) mean=sum/N
 
 下面的内容要按一下才会显示：
-<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>D</cr>
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>D</cr>
 
 2. Refer to the following method.
 ```java
@@ -158,4 +158,4 @@ What is the postcondition for method mystery?
 (E) total = a/b
 
 下面的内容要按一下才会显示：
-<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>D</cr>
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>D</cr>

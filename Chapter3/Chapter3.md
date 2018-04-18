@@ -180,7 +180,7 @@ if(age > 10){
 (D)unknown
 
 下面的内容要按一下才会显示：
-<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>C</cr>
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>C</cr>
 
 2. What will be output by the following statement?
 ```java
@@ -200,4 +200,4 @@ if(i>0)
 (D)7 is not positive
 
 下面的内容要按一下才会显示：
-<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>D</cr>
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>D</cr>
