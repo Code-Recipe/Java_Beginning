@@ -138,6 +138,7 @@ public class Hello {
       System.out.println(10/2);
       System.out.println(888/999);
       System.out.println(10%3);
+      System.out.println(0/0);
   }
 }
 </lab>
@@ -147,6 +148,8 @@ public class Hello {
 你可能会奇怪，`10/2`是5没错，可为什么`888/999`的结果会是0呢？这是因为计算机看到888是整数，而999也是整数，那么就对此进行整数运算，整数的加法、减法和乘法都体现不出来，只有除法会有差别，整数除法后的结果可以理解为算数除法舍去小数点后的部分的结果。
 
 最后的`10%3`进行的是除余运算，10除以3等于3余1，因此这个运算的结果为1。
+
+最后的`0/0`运算会报一个`java.lang.ArithmeticException`的错误，**因为一个数除以`0`没有定义，而整数下不能表示`NaN`**，这种运行时报错叫做“异常（exception）”，在[“异常”](https://coderecipe.cn/learn/2?chapter=5)一章中我们会讲到。不过需要注意的是，浮点数可以表示`NaN`（参见[类型及储存方式](https://coderecipe.cn/learn/2?chapter=1#section-%E7%B1%BB%E5%9E%8B%E5%8F%8A%E5%82%A8%E5%AD%98%E6%96%B9%E5%BC%8F)），因此`0.0/0.0`结果会是`NaN`而不会报错。
 
 ### 浮点运算
 浮点运算同样也是用类似的方法调用：
