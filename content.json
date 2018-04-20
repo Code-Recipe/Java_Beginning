@@ -45,7 +45,7 @@
       "sections": [
         {"name":"for循环"},
         {"name":"while循环"},
-        {"name":"for each循环"},
+        {"name":"for-each循环"},
         {"name":"continue下一循环和break停止循环"},
         {"name":"小练习"}
       ]
