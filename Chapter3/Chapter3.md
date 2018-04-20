@@ -8,26 +8,34 @@ if语句——选择判断
 ------
 if语句，是Java逻辑中最简单和最常用的一种。它的意义是，当某个条件成立时，执行某个操作；当这个条件不成立时，执行另外一个操作。具体的代码如下：
 ```java
-if(条件){
+if (条件1) {
 ···
-//如果条件为真，则执行
-}else{
+//如果条件1为真，则执行，执行完跳出if
+} else if(条件2) { //条件1为假才判断
+//如果条件2为真，则执行，执行完跳出if
+} else { // 前面的条件都不对才判断
 ···
 //如果条件为假，则执行
 }
 ```
-比如某个酒类售卖网站需要根据使用者的年龄信息进行操作。只有在用户的年龄大于等于21岁时，才可以使用。那么他们的代码应该这么写：
+我们只能在一个`if`语句里面有一个`else`，但却可以有很多个`else if`语句。
 
-e.g.
+`if...else if...else`语句的功能很大，比如我们成绩的分数段可以这么判断：
 ```java
-int age = 18;//可以改变这个数值
-if(age < 21){
-  System.out.println("You are not eligible to use this service.");
+int grade = 100;//是一个0-100之间的数值
+if(grade >= 90){
+  System.out.println("90-100");
+}else if(grade >= 80){
+  System.out.println("80-90");
+}else if(grade >= 70){
+  System.out.println("70-80");
+}else if(grade >= 60){
+  System.out.println("60-70");
 }else{
-  System.out.println("You are welcome to use this service.");
+  System.out.println("<60");
 }
 ```
-上方就是一个最简单的判断语句的使用方式，如果age变量小于21，则执行上方的代码，显示“You are not eligible to use this service.”，不然就执行下方的代码，显示“You are welcome to use this service.”。
+上方就是一个最简单的判断语句的使用方式，如果`grade`大于等于`90`，那么输出`90-100`，如果不是再判断是不是大于等于`80`，有则输出`80-90`，以此类推，如果直到最后发现没有大于等于`60`，那么输出`<60`。
 
 且、或和非
 -----
