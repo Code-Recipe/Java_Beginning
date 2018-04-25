@@ -49,7 +49,7 @@ while(i < 5){
 }
 ```
 
-for each循环
+for-each循环
 -----
 这种代码用于循环访问一个数组或者集合中的所有元素。用法如下：
 ```java
@@ -57,7 +57,7 @@ for(SomeType element : collection){
   ...//循环内容
 }
 ```
-TIPS: for-each 循环不能被用来替换或删除元素，同时不显示index。
+注意： for-each 循环不能被用来替换或删除元素，同时不显示index。
 
 关于这一块的内容，此处现行略写，请大家学习到后面“数组与数组列表”时再进行学习。
 
@@ -77,7 +77,7 @@ continue下一循环和break停止循环
           System.out.println(n + " ");
     }
 ```
-输出结果会是“1 2 4 5  /n  1 2”。怎么样，是不是和你想的一样呢？
+输出结果会是“1 2 4 5  \n  1 2”。怎么样，是不是和你想的一样呢？
 
 同样的，我们也会把这节课学到的内容放进lab。大家可以运行来试试，修改其中的内容，探究循环的奥秘。
 
@@ -132,7 +132,7 @@ What is the precondition for the while loop?
 (E) mean=sum/N
 
 下面的内容要按一下才会显示：
-<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>D</cr>
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>D</cr>
 
 2. Refer to the following method.
 ```java
@@ -158,6 +158,7 @@ What is the postcondition for method mystery?
 (E) total = a/b
 
 下面的内容要按一下才会显示：
+<<<<<<< HEAD
 <cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>D</cr>
 
 3.【2015年AP CS第17题】
@@ -244,3 +245,6 @@ What are the first and last numbers output by the code segment?
 (D)          16                        19
 
 (E)          No value will be printed.
+=======
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>D</cr>
+>>>>>>> d1b7a6ded1430981616e71df90b6f0d93e3967ad

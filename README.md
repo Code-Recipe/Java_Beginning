@@ -34,7 +34,7 @@ P.S: 教程读者请不要直接阅读本项目的文件，因为诸多功能在
 4. 循环
   * for循环
   * while循环
-  * for each循环
+  * for-each循环
   * continue下一循环和break停止循环
   * 小练习
 5. 数学计算

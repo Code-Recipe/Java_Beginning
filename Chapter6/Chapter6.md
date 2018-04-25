@@ -25,10 +25,13 @@
 ------
 1. 当计算了`1/0`，会发生什么结果？
 
-a. `ArithmeticException`异常
+(A) `ArithmeticException`异常
 
-b. `ArrayIndexOutOfBoundsException`异常
+(B) `ArrayIndexOutOfBoundsException`异常
 
-c. 运行错误
+(C) 运行错误
 
-d. 返回`NaN`
+(D) 返回`NaN`
+
+下面的内容要按一下才会显示：
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>A</cr>
