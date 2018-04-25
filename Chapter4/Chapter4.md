@@ -159,3 +159,88 @@ What is the postcondition for method mystery?
 
 下面的内容要按一下才会显示：
 <cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/1)查看。</notice>D</cr>
+
+3.【2015年AP CS第17题】
+
+Consider the following method.
+
+```java
+//* Precondition: num > 0 */
+public static int doWhat(int num)
+{
+  int var = 0;
+
+  for (int loop = 1; loop <= num; loop = loop + 2)
+  {
+    var += loop;
+  }
+
+  return var;
+}
+```
+
+Which of the following best describes the value returned from a call to doWhat ?
+
+(A) num
+
+(B) The sum of all integers between 1 and num, inclusive
+
+(C) The sum of all even integers between 1 and num, inclusive
+
+(D) The sum of all odd integers between 1 and num, inclusive
+
+(E) No value is returned because of an infinite loop.
+
+4.【2015年AP CS第25题】
+
+Consider the following code segment.
+
+```java
+int count = 0;
+
+for (int x = 0; x < 4; x++)
+{
+  for (int y = x; y < 4; y++)
+  {
+    count++;
+  }
+}
+
+System.out.printIn(count);
+```
+
+What is printed as a result of executing the code segment?
+
+(A) 4
+
+(B) 8
+
+(C) 10
+
+(D) 16
+
+(E) 20
+
+5. Consider the following code segment.
+
+```java
+ int value = 15;
+		while(value > 28) {
+			System.out.println(value);
+			value++;
+		}
+```
+
+What are the first and last numbers output by the code segment?
+
+            First                     Last
+
+(A)          15                        28
+
+(B)          15                        29
+
+(C)          15                        15
+
+(D)          16                        19
+
+(E)          No value will be printed.
