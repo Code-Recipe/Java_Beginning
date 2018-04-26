@@ -274,3 +274,86 @@ For which of the conditions will nothing be printed?
 
 (E) I, II, and III
 
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>D</cr>
+
+3.【2015年AP CS第12题】
+
+Assume that x and y are boolean variables and have been properly initialized.
+
+(x && y) && !(x||y)
+
+Which of the following best describes the result of evaluating the expression above?
+
+(A) true always
+
+(B) false always
+
+(C) true only when x is true and y is true
+
+(D) true only when x and y have the same value
+
+(E) true only when x and y have different values
+
+4. 【2015年AP CS第15题】
+
+```java
+public static void showMe(int arg)
+{
+  if (arg < 10)
+  {
+    showMe(arg + 1);
+  }
+  else
+  {
+    System.out.print(arg + " ");
+  }
+}
+```
+
+What will be printed as a result of the call showMe (0) ?
+
+(A) 10
+
+(B) 11
+
+(C) 0 1 2 3 4 5 6 7 8 9
+
+(D) 9 8 7 6 5 4 3 2 1 0
+
+(E) 0 1 2 3 4 5 6 7 8 9 10
+
+5.【2015年AP CS第19题】
+
+Consider the following code segment.
+
+```java
+int x = 1;
+while ( /* condition */ )
+{
+  if (x % 2 == 0)
+  {
+    System.out.print(x + " ");
+  }
+  x = x + 2 ;
+}
+```
+
+The following conditions have been proposed to replace / * condition * / in the code segment.
+
+I. x < 0 
+
+II. x <= 1 
+
+III. x < 10
+
+For which of the conditions will nothing be printed?
+
+(A) I only
+
+(B) II only
+
+(C) I and II only
+
+(D) I and III only
+
+(E) I, II, and III
