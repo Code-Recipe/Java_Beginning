@@ -224,28 +224,26 @@ What is printed as a result of executing the code segment?
 5. Consider the following code segment.
 
 ```java
- int value = 15;
-		while(value > 28) {
-			System.out.println(value);
-			value++;
-		}
+  int value = 15;
+  while(value > 28) {
+    System.out.println(value);
+    value++;
+  }
 ```
 
 What are the first and last numbers output by the code segment?
 
-            First                     Last
+(A) First: 15, Last: 28
 
-(A)          15                        28
+(B) First: 15, Last: 29
 
-(B)          15                        29
+(C) First: 15, Last: 15
 
-(C)          15                        15
+(D) First: 16, Last: 19
 
-(D)          16                        19
+(E) No value will be printed.
 
-(E)          No value will be printed.
-
-<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>D</cr>
+<cr type="hidden"><notice>隐藏内容功能在此无法正常显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>E</cr>
 
 
 3.【2015年AP CS第17题】
