@@ -85,7 +85,7 @@ continue下一循环和break停止循环
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
 public class Hello {
   public static void main(String[] args) {
-    for( int i = 1; i < 5;I ++){
+    for( int i = 1; i < 5;i ++){
       System.out.print(i + " ");
     }
     int a = 1;
